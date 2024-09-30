@@ -1,13 +1,18 @@
+
+// test per controllare la corretta importazione del file js
 console.log('ciao');
 
+// calcolare il prezzo del biglietto 
 
-let km;
-let age;
-const price_for_km = 0.21;
-let price = km * price_for_km;
 
-km = prompt('Inserisci la distanza da percorrere');
-age = prompt('inserisci la tua età')
+// emissione del prezzo in forma umana
 
-console.log(km);
-console.log(age);
+
+// prompt per chiedere chiedere i dati
+
+
+// calcolo per il prezzo finale del biglietto
+
+
+// allert per mostrare il messaggio con il risultato finale
+
