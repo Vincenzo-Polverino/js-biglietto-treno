@@ -20,9 +20,11 @@ function calc_price(km, age) {
         price = price * 0.6;
         
     }
+    
+    // emissione del prezzo in forma umana
+    return price.toFixed (2);
 }
 
-// emissione del prezzo in forma umana
 
 
 // prompt per chiedere chiedere i dati
