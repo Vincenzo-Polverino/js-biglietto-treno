@@ -20,7 +20,7 @@ function calc_price(km, age) {
         price = price * 0.6;
         
     }
-    
+
     // emissione del prezzo in forma umana
     return price.toFixed (2);
 }
@@ -28,6 +28,9 @@ function calc_price(km, age) {
 
 
 // prompt per chiedere chiedere i dati
+
+const km = prompt('Inserisci la distanza da percorrere');
+const age = prompt('inserisci la tua età')
 
 
 // calcolo per il prezzo finale del biglietto
