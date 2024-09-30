@@ -32,8 +32,8 @@ function calc_price(km, age) {
 const km = prompt('Inserisci la distanza da percorrere');
 const age = prompt('inserisci la tua età')
 
-
 // calcolo per il prezzo finale del biglietto
+const final_price = calc_price(km, age);
 
 
 // allert per mostrare il messaggio con il risultato finale
