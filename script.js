@@ -1,4 +1,3 @@
-
 // test per controllare la corretta importazione del file js
 console.log('ciao');
 
@@ -37,4 +36,5 @@ const final_price = calc_price(km, age);
 
 
 // allert per mostrare il messaggio con il risultato finale
+alert(`il costo del biglietto è: ${final_price}`);
 
